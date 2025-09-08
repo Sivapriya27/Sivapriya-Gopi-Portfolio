@@ -82,6 +82,3 @@ npm start
 
 # Open in your browser
 http://localhost:3000
-
-```bash
-git clone https://github.com/Sivapriya27/Sivapriya-Gopi-Portfolio.git
