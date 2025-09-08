@@ -2,7 +2,7 @@
   "private": true,
   "name": "master-portfolio",
   "version": "0.1.0",
-  "homepage": "https://sivapriya27.github.io/Sivapriya-Gopi-Portfolio/",
+  "homepage": "https://sivapriya27.github.io/home/",
   "scripts": {
     "build": "react-scripts --openssl-legacy-provider build",
     "predeploy": "npm run build",
