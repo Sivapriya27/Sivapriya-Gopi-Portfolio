@@ -1,10 +1,9 @@
-# Sivapriya Gopi - Portfolio 👩‍💻
+# Sivapriya Gopi's - Portfolio 👩‍💻
 
 A modern and fully customizable portfolio showcasing my skills, projects, and experience in AI/ML, NLP, Data Analytics, and Software Development.
 
 ![Made With React](https://img.shields.io/badge/made%20with-react-61DAFB?style=flat-square)
 ![Code Style: Prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)
-
 
 ---
 
@@ -16,21 +15,21 @@ This portfolio is built with React and highlights my professional journey, skill
 
 ## Sections 📄
 
-- About Me  
-- Skills  
-- Projects  
-- Experience  
-- Certifications 🏆  
-- Education  
+- About Me
+- Skills
+- Projects
+- Experience
+- Certifications 🏆
+- Education
 - Contact
 
 ---
 
 ## How to Customize 💻
 
-- Update personal info, social links, skills, projects, and contact info in `src/portfolio.js`  
-- Change theme colors in `src/theme.js`  
-- Replace or disable the splash logo in `src/portfolio.js`  
+- Update personal info, social links, skills, projects, and contact info in `src/portfolio.js`
+- Change theme colors in `src/theme.js`
+- Replace or disable the splash logo in `src/portfolio.js`
 
 ---
 
@@ -42,33 +41,33 @@ Deploy using GitHub Pages, Netlify, or any static site hosting service.
 
 ## Technologies Used 🪄
 
-- React.js  
-- Styled Components  
-- GraphQL & Apollo (optional)  
-- React-Reveal  
+- React.js
+- Styled Components
+- GraphQL & Apollo (optional)
+- React-Reveal
 - BaseUI
 
 ---
 
 ## Credits & References 🪄
 
-- Inspired by [Ashutosh Hathidara’s MasterPortfolio](https://github.com/ashutosh1919/masterPortfolio?tab=readme-ov-file)  
-- Icons and illustrations by UnDraw  
+- Inspired by [Ashutosh Hathidara’s MasterPortfolio](https://github.com/ashutosh1919/masterPortfolio?tab=readme-ov-file)
+- Icons and illustrations by UnDraw
 - Splash logo concept inspired by Prettier logo
 
 ---
 
 ---
 
-This is **fully ready to copy-paste** into your GitHub README and looks professional without any unnecessary alignment.  
+This is **fully ready to copy-paste** into your GitHub README and looks professional without any unnecessary alignment.
 
 ---
- 
 
-## Quickstart ⏰
+## Quick Start ⏰
 
-1. Make sure Node.js and npm are installed.  
+1. Make sure Node.js and npm are installed.
 2. Clone the repository:
+
 ```bash
 git clone https://github.com/Sivapriya27/Sivapriya-Gopi-Portfolio.git
 # Navigate to the project directory
@@ -82,3 +81,4 @@ npm start
 
 # Open in your browser
 http://localhost:3000
+```
