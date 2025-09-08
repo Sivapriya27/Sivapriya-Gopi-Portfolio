@@ -1,84 +1,87 @@
-<h1 align="center"> Sivapriya Gopi - Portfolio 🔥 </h1> 
-<h3 align="center"> A clean, modern, and fully customizable portfolio showcasing my skills, projects, and experience in AI/ML, NLP, Data Analytics and Software Development. </h3>
+# Sivapriya Gopi - Portfolio 👩‍💻
 
-<p align="center">
-  <a href="http://hits.dwyl.com/Sivapriya27/Sivapriya-Gopi-Portfolio"><img alt="HitCounts" src="http://hits.dwyl.com/Sivapriya27/Sivapriya-Gopi-Portfolio.svg" /></a>
-  <a href="https://reactjs.org/"><img alt="Made With React" src="https://img.shields.io/badge/made%20with-react-61DAFB?style=flat-square" /></a>
-  <a href="https://github.com/prettier/prettier"><img alt="code style: prettier" src="https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square" /></a>
-  <br/>
-  <a href="https://img.shields.io/badge/price-free-ff69b4"><img alt="Price" src="https://img.shields.io/badge/price-free-ff69b4?style=flat-square" /></a>
-</p>
+A modern and fully customizable portfolio showcasing my skills, projects, and experience in AI/ML, NLP, Data Analytics, and Software Development.
+
+![Made With React](https://img.shields.io/badge/made%20with-react-61DAFB?style=flat-square)
+![Code Style: Prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)
+
 
 ---
 
 ## About This Portfolio
 
-This portfolio highlights **my projects, skills, and professional journey**. It's built with **React** and is fully responsive and customizable.
+This portfolio is built with React and highlights my professional journey, skills, and projects. It is fully responsive, easy to customize, and designed to showcase work in a clean, professional manner.
 
 ---
 
-## Sections 📚
+## Sections
 
-✔️ About Me  
-✔️ Skills  
-✔️ Projects  
-✔️ Experience  
-✔️ Certifications 🏆  
-✔️ Education  
-✔️ Contact
-
----
-
-## Customize Your Portfolio ✏️
-
-- Edit src/portfolio.js to update personal information, social links, skills, projects, and contact info.
-
-- Change theme colors in src/theme.js.
-
-- Replace the splash logo or disable it via settings in src/portfolio.js.
+- About Me  
+- Skills  
+- Projects  
+- Experience  
+- Certifications 🏆  
+- Education  
+- Contact
 
 ---
 
-## Deployment 📦
+## How to Customize
 
-You can deploy this portfolio easily using GitHub Pages, Netlify, or any static site hosting platform.
+- Update personal info, social links, skills, projects, and contact info in `src/portfolio.js`  
+- Change theme colors in `src/theme.js`  
+- Replace or disable the splash logo in `src/portfolio.js`  
 
 ---
 
-## Technologies Used 🛠️
+## Deployment
 
-- React.js
+Deploy using GitHub Pages, Netlify, or any static site hosting service.
 
-- Styled Components
+---
 
-- GraphQL & Apollo (optional)
+## Technologies Used
 
-- React-Reveal
-
+- React.js  
+- Styled Components  
+- GraphQL & Apollo (optional)  
+- React-Reveal  
 - BaseUI
 
-## Credits & References 👏🏻
+---
 
-- Design and ideas are inspired by Ashutosh Hathidara’s MasterPortfolio (https://github.com/ashutosh1919/masterPortfolio?tab=readme-ov-file)
+## Credits & References
 
-- Icons and illustrations by UnDraw
+- Inspired by [Ashutosh Hathidara’s MasterPortfolio](https://github.com/ashutosh1919/masterPortfolio?tab=readme-ov-file)  
+- Icons and illustrations by UnDraw  
+- Splash logo concept inspired by Prettier logo
 
-- Splash logo concept inspired by prettier-logo
+---
 
-## Clone and Run Locally 📋
+---
 
-1. Make sure you have **Node.js** and **npm** installed.
-2. Navigate into the project folder and install dependencies:
+This is **fully ready to copy-paste** into your GitHub README and looks professional without any unnecessary alignment.  
 
+---
+ 
+
+## Clone and Run Locally
+
+1. Make sure Node.js and npm are installed.  
+2. Clone the repository:
+```bash
+git clone https://github.com/Sivapriya27/Sivapriya-Gopi-Portfolio.git
+# Navigate to the project directory
+cd Sivapriya-Gopi-Portfolio
+
+# Install dependencies
 npm install
 
-3. Start the project locally:
-
+# Start the project locally
 npm start
 
-4. Open your browser at http://localhost:3000 to view the portfolio.
-5. Clone this repository:
+# Open in your browser
+http://localhost:3000
 
 ```bash
 git clone https://github.com/Sivapriya27/Sivapriya-Gopi-Portfolio.git
-```
