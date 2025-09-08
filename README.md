@@ -12,7 +12,8 @@ A modern and fully customizable portfolio showcasing my skills, projects, and ex
 This portfolio is built with React and highlights my professional journey, skills, and projects. It is fully responsive, easy to customize, and designed to showcase work in a clean, professional manner.
 
 View the portfolio live here: "https://sivapriya27.github.io/Sivapriya-Gopi-Portfolio/"
-For the best experience on mobile, switch to light mode; on desktop, it’s fully optimized."
+
+(For the best experience on mobile, switch to light mode; on desktop, it’s fully optimized.)
 
 ---
 
