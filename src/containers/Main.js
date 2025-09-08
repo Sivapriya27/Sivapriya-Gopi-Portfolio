@@ -13,7 +13,7 @@ import Error404 from "../pages/errors/error404/Error";
 export default class Main extends Component {
   render() {
     return (
-      <HashRouter basename="/">
+      <HashRouter basename="/Sivapriya-Gopi-Portfolio">
         {" "}
         {/* <-- changed */}
         <Switch>
