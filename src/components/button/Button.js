@@ -20,6 +20,8 @@ export default function Button({ text, className, href, newTab, theme }) {
         className="main-button"
         href={href}
         target={newTab && "_blank"}
+        download="SivapriyaGopi_Resume_2025.pdf"
+        // 👈 this line makes the file auto-download
         style={{
           color: theme.body,
           backgroundColor: theme.text,

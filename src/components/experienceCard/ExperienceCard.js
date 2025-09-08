@@ -35,7 +35,7 @@ class ExperienceCard extends Component {
           {index !== totalCards - 1 && (
             <div
               style={{
-                height: 190,
+                height: 700,
                 width: 2,
                 backgroundColor: `${theme.headerColor}`,
                 position: "absolute",
@@ -105,8 +105,13 @@ class ExperienceCard extends Component {
                   marginTop: 20,
                 }}
               >
-                <div className="repo-description" />
-                {experience["description"]}
+                <div className="repo-impact" />
+                <div
+                  style={{ color: theme.secondaryText }}
+                  dangerouslySetInnerHTML={{
+                    __html: experience["description"],
+                  }}
+                />
               </div>
             </div>
           </div>

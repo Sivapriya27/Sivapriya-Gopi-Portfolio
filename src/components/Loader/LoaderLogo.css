@@ -1,4 +1,30 @@
 .raw_logo {
-  height: 305;
-  width: 440;
+  width: 300px;
+  height: auto;
+  filter: drop-shadow(0 0 10px #00e5ff) drop-shadow(0 0 15px #ff00ff);
+  animation: neonPulse 2.5s ease-in-out infinite;
+  transform-origin: center;
+}
+
+@keyframes neonPulse {
+  0% {
+    filter: drop-shadow(0 0 5px #00e5ff) drop-shadow(0 0 8px #ff00ff);
+    transform: scale(1) rotate(0deg);
+  }
+  25% {
+    filter: drop-shadow(0 0 20px #00ffff) drop-shadow(0 0 15px #ff0077);
+    transform: scale(1.08) rotate(-2deg);
+  }
+  50% {
+    filter: drop-shadow(0 0 30px #ff00ff) drop-shadow(0 0 25px #00e5ff);
+    transform: scale(1.1) rotate(2deg);
+  }
+  75% {
+    filter: drop-shadow(0 0 20px #ff0077) drop-shadow(0 0 15px #00ffff);
+    transform: scale(1.08) rotate(-1deg);
+  }
+  100% {
+    filter: drop-shadow(0 0 5px #00e5ff) drop-shadow(0 0 8px #ff00ff);
+    transform: scale(1) rotate(0deg);
+  }
 }

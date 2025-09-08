@@ -3,19 +3,19 @@ import "./Skills.css";
 import SoftwareSkill from "../../components/softwareSkills/SoftwareSkill";
 import { skills } from "../../portfolio";
 import { Fade } from "react-reveal";
-import DataScienceImg from "./DataScienceImg";
-import FullStackImg from "./FullStackImg";
-import CloudInfraImg from "./CloudInfraImg";
-import DesignImg from "./DesignImg";
+import ChatWithAIImg from "../../components/ChatWithAIImg";
+import MlModalImg from "../../components/MlModalImg";
+import DataAnalyticsImg from "../../components/DataAnalyticsImg";
+import SoftwareDevImg from "../../components/SoftwareDevImg";
 
 function GetSkillSvg(props) {
-  if (props.fileName === "DataScienceImg")
-    return <DataScienceImg theme={props.theme} />;
-  else if (props.fileName === "FullStackImg")
-    return <FullStackImg theme={props.theme} />;
-  else if (props.fileName === "CloudInfraImg")
-    return <CloudInfraImg theme={props.theme} />;
-  return <DesignImg theme={props.theme} />;
+  if (props.fileName === "ChatWithAIImg")
+    return <ChatWithAIImg theme={props.theme} />;
+  else if (props.fileName === "MlModalImg")
+    return <MlModalImg theme={props.theme} />;
+  else if (props.fileName === "DataAnalyticsImg")
+    return <DataAnalyticsImg theme={props.theme} />;
+  return <SoftwareDevImg theme={props.theme} />;
 }
 
 class SkillSection extends Component {
@@ -29,7 +29,7 @@ class SkillSection extends Component {
               <Fade left duration={2000}>
                 <div className="skills-image-div">
                   {/* <img
-                    alt="Ashutosh is Analysing Data"
+                    alt="Sivapriya's is Analysing Data"
                     src={require(`../../assets/images/${skill.imagePath}`)}
                   ></img> */}
                   <GetSkillSvg fileName={skill.fileName} theme={theme} />

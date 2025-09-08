@@ -4,11 +4,13 @@ import Footer from "../../components/footer/Footer";
 import TopButton from "../../components/topButton/TopButton";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
 import Button from "../../components/button/Button";
-import BlogsImg from "./BlogsImg";
-import AddressImg from "./AddressImg";
 import { Fade } from "react-reveal";
 import "./ContactComponent.css";
 import { greeting, contactPageData } from "../../portfolio.js";
+
+// Use the image components (no direct SVG imports here)
+import BlogsImg from "./BlogsImg";
+import AddressImg from "./AddressImg";
 
 const ContactData = contactPageData.contactSection;
 const blogSection = contactPageData.blogSection;
@@ -18,6 +20,7 @@ const phoneSection = contactPageData.phoneSection;
 class Contact extends Component {
   render() {
     const theme = this.props.theme;
+
     return (
       <div className="contact-main">
         <Header theme={theme} />
@@ -25,10 +28,17 @@ class Contact extends Component {
           <Fade bottom duration={1000} distance="40px">
             <div className="contact-heading-div">
               <div className="contact-heading-img-div">
+                {/* If you're on Vite, replace require(...) with the new URL pattern shown in the comment below */}
                 <img
                   src={require(`../../assets/images/${ContactData["profile_image_path"]}`)}
-                  alt=""
+                  alt="profile"
                 />
+                {/* Vite-friendly alternative:
+                <img
+                  src={new URL(`../../assets/images/${ContactData["profile_image_path"]}`, import.meta.url).href}
+                  alt="profile"
+                />
+                */}
               </div>
               <div className="contact-heading-text-div">
                 <h1
@@ -50,11 +60,14 @@ class Contact extends Component {
                     newTab={true}
                     href={greeting.resumeLink}
                     theme={theme}
+                    download="SivapriyaGopi_Resume_2025.pdf"
+                    // 👈 this line makes the file auto-download
                   />
                 </div>
               </div>
             </div>
           </Fade>
+
           <Fade bottom duration={1000} distance="40px">
             <div className="blog-heading-div">
               <div className="blog-heading-text-div">
@@ -69,7 +82,7 @@ class Contact extends Component {
                 </p>
                 <div className="blogsite-btn-div">
                   <Button
-                    text="Visit My Blogsite"
+                    text="Visit My Blog (Coming Soon!)"
                     newTab={true}
                     href={blogSection.link}
                     theme={theme}
@@ -77,21 +90,16 @@ class Contact extends Component {
                 </div>
               </div>
               <div className="blog-heading-img-div">
-                {/* <img
-											src={require(`../../assets/images/${blogSection["avatar_image_path"]}`)}
-											alt=""
-										/> */}
+                {/* Use the component that renders a plain <img /> */}
                 <BlogsImg theme={theme} />
               </div>
             </div>
           </Fade>
+
           <Fade bottom duration={1000} distance="40px">
             <div className="address-heading-div">
               <div className="contact-heading-img-div">
-                {/* <img
-											src={require(`../../assets/images/${addressSection["avatar_image_path"]}`)}
-											alt=""
-										/> */}
+                {/* Use the component that renders a plain <img /> */}
                 <AddressImg theme={theme} />
               </div>
               <div className="address-heading-text-div">
@@ -121,7 +129,7 @@ class Contact extends Component {
                 </p>
                 <div className="address-btn-div">
                   <Button
-                    text="Visit on Google Maps"
+                    text="Want to Google it?"
                     newTab={true}
                     href={addressSection.location_map_link}
                     theme={theme}
@@ -131,6 +139,7 @@ class Contact extends Component {
             </div>
           </Fade>
         </div>
+
         <Footer theme={this.props.theme} onToggle={this.props.onToggle} />
         <TopButton theme={this.props.theme} />
       </div>
