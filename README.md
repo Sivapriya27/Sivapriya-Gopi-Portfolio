@@ -8,13 +8,13 @@ A modern and fully customizable portfolio showcasing my skills, projects, and ex
 
 ---
 
-## About This Portfolio
+## About This Portfolio 🔍
 
 This portfolio is built with React and highlights my professional journey, skills, and projects. It is fully responsive, easy to customize, and designed to showcase work in a clean, professional manner.
 
 ---
 
-## Sections
+## Sections 📄
 
 - About Me  
 - Skills  
@@ -26,7 +26,7 @@ This portfolio is built with React and highlights my professional journey, skill
 
 ---
 
-## How to Customize
+## How to Customize 💻
 
 - Update personal info, social links, skills, projects, and contact info in `src/portfolio.js`  
 - Change theme colors in `src/theme.js`  
@@ -34,13 +34,13 @@ This portfolio is built with React and highlights my professional journey, skill
 
 ---
 
-## Deployment
+## Deployment 📲
 
 Deploy using GitHub Pages, Netlify, or any static site hosting service.
 
 ---
 
-## Technologies Used
+## Technologies Used 🪄
 
 - React.js  
 - Styled Components  
@@ -50,7 +50,7 @@ Deploy using GitHub Pages, Netlify, or any static site hosting service.
 
 ---
 
-## Credits & References
+## Credits & References 🪄
 
 - Inspired by [Ashutosh Hathidara’s MasterPortfolio](https://github.com/ashutosh1919/masterPortfolio?tab=readme-ov-file)  
 - Icons and illustrations by UnDraw  
@@ -65,7 +65,7 @@ This is **fully ready to copy-paste** into your GitHub README and looks professi
 ---
  
 
-## Clone and Run Locally
+## Quickstart ⏰
 
 1. Make sure Node.js and npm are installed.  
 2. Clone the repository:
