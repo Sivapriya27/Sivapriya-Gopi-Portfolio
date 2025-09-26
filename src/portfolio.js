@@ -26,8 +26,8 @@ const greeting = {
   subTitle:
     "Driven by curiosity, guided by data, and fueled by purpose - I want to build solutions that help amplify human potential. I enjoy navigating complexity with clarity, turning ideas into intelligent systems that connect, adapt, and evolve with the world.",
   resumeLink:
-    "https://drive.google.com/file/d/16bb7O8mC4Ta70wjg1zxFOrqoadSP0xn3/view?usp=sharing",
-  portfolio_repository: "/SivapriyaGopi_Resume_2025.pdf",
+    "https://drive.google.com/file/d/1QMyW7g99OsYJgAJwoT0FNAnpA8V7CtIM/view?usp=sharing",
+  portfolio_repository: "/Sivapriya Gopi'sResume 2025.pdf",
   githubProfile: "https://github.com/Sivapriya27",
 };
 
