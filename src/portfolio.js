@@ -22,7 +22,7 @@ const greeting = {
   title: "Sivapriya Gopi",
   logo_name: "SivapriyaGopi",
   nickname:
-    "When focus and effort knocks, and opportunity answers, success walks in!",
+    "When focus plus effort knocks, and opportunity answers, success walks in!",
   subTitle:
     "Driven by curiosity, guided by data, and fueled by purpose - I want to build solutions that help amplify human potential. I enjoy navigating complexity with clarity, turning ideas into intelligent systems that connect, adapt, and evolve with the world.",
   resumeLink:
@@ -282,7 +282,7 @@ const degrees = {
   degrees: [
     {
       title: "University of Minnesota, Twin Cities",
-      subtitle: "M.S. in Computer Science",
+      subtitle: "Master of Science in Computer Science",
       logo_path: "umn_logo.png",
       alt_name: "UMN-TC",
       duration: "Sep 2024- May 2026",
@@ -295,12 +295,12 @@ const degrees = {
     },
     {
       title: "SRM Institute of Science and Technology",
-      subtitle: "B.Tech in Computer Science and Engineering",
+      subtitle: "Bachelor of Technology in Computer Science and Engineering",
       logo_path: "srm_logo.png",
       alt_name: "SRMIST ",
       duration: "Aug 2020 - May 2024",
       descriptions: [
-        "🎓  Graduated with a 9.6/10 GPA, with a focus on core subjects including Advanced Programming Practice, Data Structures and Algorithms (DSA), Design and Analysis of Algorithms (DAA), Computer Architecture, Operating Systems, Database Management Systems (DBMS), and Computer Networks.",
+        "🎓  Graduated with a 9.57/10 GPA, with a focus on core subjects including Advanced Programming Practice, Data Structures and Algorithms (DSA), Design and Analysis of Algorithms (DAA), Computer Architecture, Operating Systems, Database Management Systems (DBMS), and Computer Networks.",
         "🎓  Gained industry exposure through major projects, internships, and published technical papers, working under guidance from experienced faculty and collaborating with industry experts.",
         "🎓  Demonstrated leadership and initiative through student organizations, technical clubs, and volunteering activities, driving events, mentoring peers, and fostering collaborative growth within the university community.",
       ],
@@ -400,7 +400,7 @@ const experience = {
   title: "Experience",
   subtitle: "Work, Internship, Leadership & Volunteership",
   description:
-    "At the University of Minnesota, I have contributed to high-impact research as a Graduate Research Assistant, working across diverse domains to build intelligent systems that advance healthcare and enhance clinical decision-making. I’ve also interned as a software developer, where I engineered scalable, real-world solutions across diverse heathcare systems. Beyond the lab and code,  I have impactful leadership experience through diverse opportunities where I represented my college in a national forum dedicated to innovation, leadership, and cross-institutional collaboration. I also served as a lead member in prominent tech clubs, organizing national-level tech events, and driving innovation through collaborative, community-led initiatives.",
+    "At the University of Minnesota, I contributed as a Graduate Research Assistant, building intelligent systems that advance healthcare and clinical decision-making. As a software developer intern, I engineered scalable solutions across healthcare systems. Beyond research and development, during my undergrad, I represented my college at national innovation and leadership forums and served as a lead member in tech clubs, organizing Intercollegiate events and driving community-led initiatives. Below are the challenges I focused on during my work, internships, and leadership roles.",
   header_image_path: "experience.svg",
   sections: [
     {
@@ -418,7 +418,7 @@ const experience = {
           description:
             "<b>Problem</b><br>The CE-STAND study, a grant-funded clinical trial, faced challenges in managing large-scale datasets (30+ patients). Data from assessments (volitional movements, autonomic responses, and quality-of-life metrics) were fragmented across formats. Manual processing slowed analysis and increased the risk of errors, making it difficult for neurosurgeons and biomedical engineers to make timely, data-driven decisions. The research team also required a custom <b>Dual N-Back cognitive testing platform</b>, built in-house, to assess and track patient cognitive function.<br><br>" +
             "<b>Solution</b><br>- Developing a <b>Python- and MATLAB-based applications</b> to automate patient data ingestion, processing, and analysis.<br>- Designing <b>interactive PowerBI dashboards and Excel-based reports</b> tailored for clinicians, researchers, and administrators.<br>- Collaborating with neurosurgeons to translate <b>clinical protocols into technical workflows</b>, ensuring standardized, reproducible data capture.<br>- Applied <b>Bayesian optimization and statistical modeling</b> to evaluate treatment effectiveness. <br>- Building a <b>custom Dual N-Back web application</b> with research-specific features, enabling participants to complete cognitive testing seamlessly within the clinical study.<br><br>" +
-            "<b>Impact</b><br>- Reduced manual data preparation time from <b>hours to under 20 minutes</b> per patient dataset.<br>- Delivered <b>real-time, clinician-ready dashboards</b> that accelerated neurosurgeon decision-making and improved study accuracy.<br>- Laid the foundation for <b>scalable, secure data infrastructure</b>, ensuring future trials can build on structured workflows.<br>- Planning to successfully deploy the <b>cognitive testing platform</b>, which will be actively used by participants to evaluate and track cognitive improvements during the study.",
+            "<b>Impact</b><br>- Reduced manual data preparation time from <b>hours to under 20 minutes</b> per patient dataset.<br>- Delivered <b>real-time, clinician-ready dashboards</b> that accelerated neurosurgeon decision-making and improved study accuracy.<br>- Laid the foundation for <b>scalable, secure data infrastructure</b>, ensuring future trials can build on structured workflows.<br>- Successfully deployed the <b>cognitive testing platform</b>, which will be actively used by participants to evaluate and track cognitive improvements during the study.",
           color: "#000000",
         },
         {
@@ -431,7 +431,7 @@ const experience = {
           location: "Minneapolis, MN, USA",
           description:
             "<b>Problem</b><br>" +
-            "Research teams spent excessive time on repetitive technical tasks during assessment tests such as <b>Brain Motor Control Assessment (BMCA)</b>, <b>Transcranial Doppler (TcD)</b>, report generation, and manual trial documentation. These inefficiencies <b>slowed study timelines</b>, created <b>inconsistencies that threatened reproducibility</b>, and prolonged volunteer participation sessions.<br><br>" +
+            "Research teams spent excessive time on repetitive technical tasks during assessment tests such as <b>Brain Motor Control Assessment (BMCA)</b>, <b>Transcranial Doppler (TcD)</b>, <b>Ambulatory Blood Pressure Monitor (ABPM)</b> report generation, and manual trial documentation. These inefficiencies <b>slowed study timelines</b>, created <b>inconsistencies that threatened reproducibility</b>, and prolonged volunteer participation sessions.<br><br>" +
             "<b>Solution</b><br>" +
             "- <b>Automated repetitive workflows</b> by leveraging advanced software features (e.g., <b>LabChart macros for BMCA</b>)<br>" +
             "- Collaborated with <b>external software providers</b> to learn advanced capabilities and integrated them into trial workflows through custom implementations.<br>" +

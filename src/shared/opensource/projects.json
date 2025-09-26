@@ -5,7 +5,7 @@
       "name": "Stock Sentiment Analysis - A Social Media Effect",
       "createdAt": "10th April 2025",
       "url": "https://github.com/Sivapriya27/Stock-Sentiment-Analysis---A-Social-Media-Effect",
-      "description": "This project investigates how social media sentiment correlates with U.S stock returns, using 860K+ tweets, financial APIs, and NLP models. It combines Python-based analysis with an interactive Svelte web app.",
+      "description": "This project investigates how social media sentiment correlates with U.S stock returns, using 50K+ tweets, financial APIs, and NLP models. It combines Python-based analysis with an interactive Svelte web app.",
       "isFork": false,
       "languages": [
         {
@@ -80,7 +80,7 @@
       "name": "News Headline Classification using Comprehensive Pattern Learning",
       "createdAt": "5th May 2024",
       "url": "https://github.com/Sivapriya27/News-Headline-Classification-using-Comprehensive-Pattern-Learning",
-      "description": "This project is a machine learning system that classifies news headlines into categories. It uses NLP preprocessing, TF-IDF feature extraction, and a Support Vector Machine (SVM) to achieve state-of-the-art accuracy on the AG News dataset.",
+      "description": "This project is a machine learning system that classifies news headlines into categories. It uses data preprocessing, TF-IDF feature extraction, and a Support Vector Machine (SVM) to achieve state-of-the-art accuracy on the AG News dataset.",
       "isFork": false,
       "languages": [
         {
