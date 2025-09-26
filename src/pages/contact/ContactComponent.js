@@ -60,7 +60,7 @@ class Contact extends Component {
                     newTab={true}
                     href={greeting.resumeLink}
                     theme={theme}
-                    download="SivapriyaGopi_Resume_2025.pdf"
+                    download="Sivapriya Gopi's Resume 2025.pdf"
                     // 👈 this line makes the file auto-download
                   />
                 </div>
