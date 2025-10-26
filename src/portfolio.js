@@ -322,10 +322,10 @@ const certifications = {
     },
     {
       title: "Microsoft AI & ML Engineering",
-      subtitle: "In progress",
+      subtitle: "Completed",
       logo_path: "microsoft_logo.png",
       certificate_link:
-        "https://www.coursera.org/professional-certificates/microsoft-ai-and-ml-engineering",
+        "https://coursera.org/share/b8879dba03e86a31bb4862234e634731",
       alt_name: "Microsoft",
       color_code: "#00000099",
     },
