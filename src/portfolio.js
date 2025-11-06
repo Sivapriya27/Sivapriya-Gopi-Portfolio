@@ -334,7 +334,7 @@ const certifications = {
       subtitle: "In progress",
       logo_path: "google_logo.png",
       certificate_link:
-        "https://www.coursera.org/professional-certificates/google-advanced-data-analytics",
+        "https://coursera.org/share/74b6bdc3761cc15bfb570f1151979ac0",
       alt_name: "Google",
       color_code: "#0C9D5899",
     },
